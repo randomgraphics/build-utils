@@ -1,2 +1,2 @@
 # docker
-This repository manages common docker files used to build other randomgraphics projects
+This repository manages common build utilities, such docker files, used to build other randomgraphics projects.
