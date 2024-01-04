@@ -36,5 +36,7 @@ RUN curl.exe -SL -o vulkan-sdk.exe https://sdk.lunarg.com/sdk/download/1.3.250.0
 RUN vulkan-sdk.exe --root=c:\vulkan-sdk --accept-licenses --default-answer --confirm-command install com.lunarg.vulkan com.lunarg.vulkan.volk com.lunarg.vulkan.vma
 RUN del /q vulkan-sdk.exe
 
+# TODO: install Android Studio
+
 # Misc.
 RUN powershell -Command Set-ExecutionPolicy RemoteSigned

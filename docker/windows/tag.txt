@@ -1,1 +1,1 @@
-ghcr.io/randomgraphics/rapid-vulkan:windows-latest
+ghcr.io/randomgraphics/windows:latest
